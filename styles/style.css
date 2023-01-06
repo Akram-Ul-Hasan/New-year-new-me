@@ -33,9 +33,6 @@ header {
 }
 /* -----Main section----- */
 /* failure section */
-section{
-    
-}
 .failure-section{
     display: flex;
     align-items: center;
@@ -54,4 +51,26 @@ section{
 }
 .failure-list{
     color: #444343;
+}
+/* plan section */
+.section{
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 180px 136px 180px;
+    
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
