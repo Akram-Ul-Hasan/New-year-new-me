@@ -17,9 +17,10 @@ header {
   width: 100%;
   background-image: url(../images/banner/banner3.png);
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .header-container {
-  padding: 216px 700px 0 150px;
+  padding: 216px 180px 0 700px;
   text-align: Right;
   width: 480px;
 }
