@@ -21,6 +21,7 @@ header {
 .header-container {
   padding: 216px 700px 0 150px;
   text-align: Right;
+  width: 480px;
 }
 .header-title {
   font-weight: 700;
@@ -40,6 +41,14 @@ header {
   gap: 26px;
   padding: 131px 230px 130px 120px;
 }
+.failure-list-container ul{
+  margin: 0;
+  padding: 0;
+  list-style-position: outside;
+  list-style-type: none;
+  
+
+}
 .section-title {
   font-weight: 700;
   font-size: 40px;
@@ -52,6 +61,9 @@ header {
 }
 .failure-list {
   color: #444343;
+}
+.checkmark{
+  color: #005fac;
 }
 /* plan section */
 .section {
@@ -78,6 +90,7 @@ header {
 /* always keep positive mindset section */
 .mindset {
   background-image: url(/images/gradient1.png), url(/images/watch.png);
+  background-repeat: no-repeat;
 }
 .mindset-container {
   padding: 55px 450px 55px 60px;
@@ -96,29 +109,34 @@ header {
   margin-top: 100px;
 }
 .time-management .section-title{
-  color: red;
+  color: orangered;
   padding-top: 100px;
   padding-bottom: 200px;
 }
 .time-management-tips{
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  padding: 50px;
 }
 .tips-title{
   font-weight: 600;
   font-size: 25px;
-  margin: 50px;
-  color: red;
+  
+  color: orangered;
+}
+.tips-description{
+  font-weight: 500;
+  font-size: 18px;
+  color: purple;
 }
 
 /* -----Footer section----- */
-footer {
-  background: #151414;
-}
+
 .footer-section {
   display: flex;
-  gap: 300px;
+  gap: 200px;
   padding: 130px 180px;
+  background: #151414;
 }
 .future-title {
   font-weight: 700;
@@ -136,6 +154,8 @@ footer {
 }
 .icons{
   margin-top: 32px;
+  display: flex;
+  gap: 17px;
 }
 
 .subscribe-title {
@@ -155,7 +175,7 @@ footer {
 
 input[type="email"]{
   height: 50px;
-  width: 100%;
+  width:max-content;
   color: #f3f3f3;
   background: #151414;
   border: 1px solid white;
