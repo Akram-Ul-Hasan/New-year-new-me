@@ -34,59 +34,111 @@ header {
 }
 /* -----Main section----- */
 /* failure section */
-.failure-section{
-    display: flex;
-    align-items: center;
-    gap: 26px;
-    padding: 131px 230px 130px 120px;
+.failure-section {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  padding: 131px 230px 130px 120px;
 }
-.section-title{
-    font-weight: 700;
-    font-size: 40px;
-    color: #151414;
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
 }
-.failure-description{
-    color: #444343;
-    margin-top: 24px;
-    margin-bottom: 16px;
+.failure-description {
+  color: #444343;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
-.failure-list{
-    color: #444343;
+.failure-list {
+  color: #444343;
 }
 /* plan section */
-.section{
-    text-align: center;
-    margin: 0 180px;
+.section {
+  text-align: center;
+  margin: 0 180px 130px 180px;
 }
-.plan-container{
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0 136px 0;
-    
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 136px 0;
 }
-.plan-title{
-    font-weight: 700;
-    font-size: 30px;
-    color: #151414;
-    margin-bottom: 16px;
-    margin-top: 20px;
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-bottom: 16px;
+  margin-top: 20px;
 }
-.plan-description{
-    font-weight: 500;
-    font-size: 25px;
-    color: #737272;
+.plan-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
 }
 /* always keep positive mindset section */
-.mindset{
-background-image: url(/images/gradient1.png), url(/images/watch.png);
+.mindset {
+  background-image: url(/images/gradient1.png), url(/images/watch.png);
 }
-.mindset-container{
+.mindset-container {
   padding: 55px 450px 55px 60px;
   text-align: left;
 }
-.mindset-title{
+.mindset-title {
   font-weight: 700;
   font-size: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 24px;
+}
+
+/* -----Footer section----- */
+footer {
+  background: #151414;
+}
+.footer-section {
+  display: flex;
+  gap: 300px;
+  padding: 130px 180px;
+}
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+
+.future-description {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.contact{
+  margin-top: 24px;
+}
+.icons{
+  margin-top: 32px;
+}
+
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.button-subscribe{
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #005fac;
+  padding: 20px 30px;
+  border-radius: 8px;
+} 
+
+input[type="email"]{
+  height: 50px;
+  width: 100%;
+  color: #f3f3f3;
+  background: #151414;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-bottom: 16px;
 }
