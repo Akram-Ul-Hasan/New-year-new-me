@@ -89,6 +89,27 @@ header {
   color: #ffffff;
   margin-bottom: 24px;
 }
+/* Time management section */
+.time-management{
+  background-image: url(/images/time1.jpg);
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+.time-management .section-title{
+  color: red;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.time-management-tips{
+  display: flex;
+  gap: 20px;
+}
+.tips-title{
+  font-weight: 600;
+  font-size: 25px;
+  margin: 50px;
+  color: red;
+}
 
 /* -----Footer section----- */
 footer {
