@@ -40,7 +40,7 @@ header {
   display: flex;
   align-items: center;
   gap: 26px;
-  padding: 131px 230px 130px 120px;
+  padding: 0 230px 130px 120px;
 }
 .failure-list-container ul{
   margin: 0;
