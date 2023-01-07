@@ -15,7 +15,7 @@
 header {
   height: 808px;
   width: 100%;
-  background-image: url("/images/banner/banner3.png");
+  background-image: url(../images/banner/banner3.png);
   background-repeat: no-repeat;
 }
 .header-container {
@@ -89,7 +89,7 @@ header {
 }
 /* always keep positive mindset section */
 .mindset {
-  background-image: url("/images/gradient1.png"), url("/images/watch.png");
+  background-image: url(../images/gradient1.png), url(../images/watch.png);
   background-repeat: no-repeat;
 }
 .mindset-container {
@@ -104,7 +104,7 @@ header {
 }
 /* Time management section */
 .time-management{
-  background-image: url("/images/time1.jpg");
+  background-image: url(../images/time1.jpg);
   background-repeat: no-repeat;
   margin-top: 100px;
 }
